@@ -8,7 +8,7 @@ using namespace std;
 int LinearLearner()
 {
     //TODO: read input document
-
+    
 
     //TODO: get LearningRate from user
     int LRate;
