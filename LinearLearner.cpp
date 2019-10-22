@@ -62,8 +62,6 @@ vector<double> LinearLearner(vector<Example> dataList, double LRate)
             }
         }
 
-
-
     }
     
     cout << "After Running " << endl;
