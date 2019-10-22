@@ -56,8 +56,8 @@ int computeYCap(vector<double> w, Example Ex)
         
 
     }
-    cout << "W0= " << w[0] << "W1= " << w[1] << endl;
-    cout << "YCap= " << YCap << endl;
+    //cout << "W0= " << w[0] << "W1= " << w[1] << endl;
+    //cout << "YCap= " << YCap << endl;
     //return YCap
     return YCap;
 }

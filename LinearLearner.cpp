@@ -46,7 +46,7 @@ vector<double> LinearLearner(vector<Example> dataList, double LRate)
     //int yCap = computeYCap(w,dataList[0]);
     //iterate through examples and adjust weights 5000 times
     
-    for (int it=0; it<5;it++)
+    for (int it=0; it<5000;it++)
     {
 
         //for every example update the weight
@@ -64,9 +64,9 @@ vector<double> LinearLearner(vector<Example> dataList, double LRate)
 
     }
     
-    cout << "After Running " << endl;
-    cout << "W0: " << w[0] << endl;
-    cout << "W1: " << w[1] << endl;
+    //cout << "After Running " << endl;
+    //cout << "W0: " << w[0] << endl;
+    //cout << "W1: " << w[1] << endl;
     return w;
 }
 
